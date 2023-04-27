@@ -1,0 +1,174 @@
+html {
+    color: #000;
+    width: 780px;
+    margin: auto;
+    font-family: 'Oxygen', sans-serif;
+    background-image: url("images/clouds.png"); 
+}
+
+body {
+    padding: 8px;
+    background-color: #fff;
+    border: rgb(231, 231, 231);
+    border-style: outset;
+}
+
+.intro {
+    font-size: small;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+li {
+    color: #00bbf9;
+    list-style-type: armenian;
+}
+
+a {
+    color: #00bbf9;
+}
+
+#banner {
+    border-style: ridge;
+    border-color: #888888;
+    text-align: center;
+    color: #06af00;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 6px;
+    background-color: #000;
+}
+
+#featured {
+    border:inset;
+    width: 572px;
+    height: 128px;
+    float: right;
+    margin-bottom: 6px;
+    background-color: #000;
+}
+
+nav {
+    text-align: left;
+    border: solid;
+    border-width: 1px;
+    border-color: #00bbf9;
+    width: 180px;
+    height: 128px;
+    float: left;
+    margin-bottom: 6px;
+    background-image: linear-gradient(#e5e5e5, #fff);
+}
+
+.navHead {
+    color: #fff;
+    background-color: #00bbf9;
+    border-bottom-style: double;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+header {
+    color:#000;
+    text-decoration: underline double;
+    text-align: left;
+    border: solid;
+    border-color: white;
+    padding-left: 12px;
+}
+
+h1 {
+    font-family: 'Oxanium', cursive;
+}
+
+h2 {
+    font-family: 'Oxanium', cursive;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+h3 {
+    font-family: 'Oxanium', cursive;
+    padding-left: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+ul {
+    font-family: 'Oxanium', cursive;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+#introduction {
+    width: 560px;
+    height: 64px;
+    margin-bottom: 42px;
+    padding-top: 28px;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#post {
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    margin-top: 6px;
+    border: #000;
+    border-style: solid;
+    border-width: 1px;
+    color: #000;
+}
+
+p {
+    margin: 6px;
+}
+
+#toolbar{
+    background: #c0c0c0;
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid #fff;
+}
+
+      .start-button{
+        background: url(https://win98icons.alexmeub.com/icons/png/windows-0.png) no-repeat 2px center / 24px;
+        padding-left: 28px;
+        padding-right: 5px;
+        height: 29px;
+        margin: 2px 3px;
+        font-weight: bold;
+        border: 2px solid #7c7c7c;
+        border-top-color: #fff;
+        border-left-color: #fff;
+      }
+
+    
+    .toolbar-right{
+      float: right;
+      margin: 2px 3px;
+      height: 29px;
+      border: 2px solid #7c7c7c;
+      border-bottom-color: #fff;
+      border-right-color: #fff;
+    }
+    
+    @font-face {
+        font-family: LeviWindows;
+        src: url( LeviWindows.ttf);
+    }
+
+    .time{
+        font-family: LeviWindows;
+        padding: 6px 10px;
+    }
